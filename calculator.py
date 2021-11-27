@@ -25,7 +25,8 @@ Elige una opcion: """
         subtraction(a, b)
     elif opcion == 3:
         multiplication(a, b)
-    
+    else:
+        divison(a, b)
 
 
 if __name__ == '__main__':
