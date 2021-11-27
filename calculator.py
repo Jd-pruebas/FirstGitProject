@@ -18,7 +18,7 @@ def divison(num1, num2):
 
 
 def run():
-    print("\nEste es un demo de calculadora\nA continuación ingresa dos números para hacer operaciones básicas\n")
+    print("\n¡Bienvenido! Este es un demo de calculadora\nA continuación ingresa dos números para hacer operaciones básicas\n")
     a = int(input("Digita el primer número: "))
     b = int(input("Digita el segundo número: "))
     opcion = 0
