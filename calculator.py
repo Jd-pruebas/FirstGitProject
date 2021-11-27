@@ -19,6 +19,10 @@ Elige una opcion: """
         if opcion < 1 or opcion > 4:
             menu = "¡Elegiste una opción incorrecta! Selecciona de nuevo: "
 
+    if opcion == 1:
+        addition(a, b)
+    elif opcion == 2:
+        subtraction(a, b)
 
 if __name__ == '__main__':
     run()
