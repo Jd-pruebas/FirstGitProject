@@ -1,5 +1,6 @@
 Hola mi nombre es Juan David y esta es mi historia.
 
-Estudio en platzi y james town.
+Actualmente estudio python en platzi.
+También estudi inglés en James Town.
 
-También me gusta ir al gym.
+También me gusta ir al gym y ver películas.
