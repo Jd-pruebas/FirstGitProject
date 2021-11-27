@@ -1,3 +1,11 @@
+def addition(num1, num2):
+    print("La suma es: " + str(num1 + num2))
+
+
+def subtraction(num1, num2):
+    print("La resta es: " + str(num1 - num2))
+
+
 def run():
     print("\nEsta es una mini calculadora\nA continuación ingresa dos números para hacer operaciones\n")
     a = int(input("Digita el primer número: "))
