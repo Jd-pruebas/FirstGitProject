@@ -23,6 +23,10 @@ Elige una opcion: """
         addition(a, b)
     elif opcion == 2:
         subtraction(a, b)
+    elif opcion == 3:
+        multiplication(a, b)
+    
+
 
 if __name__ == '__main__':
     run()
