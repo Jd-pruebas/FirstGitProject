@@ -17,7 +17,8 @@ Elige una opcion: """
     while opcion < 1 or opcion > 4:
         opcion = int(input(menu))
         if opcion < 1 or opcion > 4:
-            menu = "¡Opción incorrecta! Selecciona de nuevo: "
+            menu = "¡Elegiste una opción incorrecta! Selecciona de nuevo: "
+
 
 if __name__ == '__main__':
     run()
