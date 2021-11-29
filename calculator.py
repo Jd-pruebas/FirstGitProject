@@ -26,10 +26,10 @@ def run():
     
     Opciones:
 
-1 - suma            (número 1 + número 2)
-2 - resta           (número 1 - número 2)
-3 - multiplicación  (número 1 x número 2)
-4 - división        (número 1 ÷ número 2)
+1 - Suma            (número 1 + número 2)
+2 - Resta           (número 1 - número 2)
+3 - Multiplicación  (número 1 x número 2)
+4 - División        (número 1 ÷ número 2)
 
 Elige una opcion: """
 
