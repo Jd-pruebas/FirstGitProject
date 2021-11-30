@@ -1,24 +1,24 @@
 def addition(num1, num2):
-    print("La suma es: " + str(num1 + num2))
+    print("La suma es: " + str(num1 + num2) + "\n")
 
 
 def subtraction(num1, num2):
-    print("La resta es: " + str(num1 - num2))
+    print("La resta es: " + str(num1 - num2) + "\n")
 
 
 def multiplication(num1, num2):
-    print("La multiplicación es: " + str(num1 * num2))
+    print("La multiplicación es: " + str(num1 * num2) + "\n")
 
 
 def division(num1, num2):
     if num2 == 0:
-        print("No es posible dividir entre '0'")
+        print("No es posible dividir entre '0'\n")
     else:
-        print("La división es: " + str(num1 / num2))
+        print("La división es: " + str(num1 / num2) + "\n")
 
 
 def power(num1, num2):
-    print("La potencia es: " + str(num1 ** num2))
+    print("La potencia es: " + str(num1 ** num2) + "\n")
 
 
 def run():
