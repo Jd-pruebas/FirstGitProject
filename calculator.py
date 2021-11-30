@@ -1,24 +1,20 @@
 def addition(num1, num2):
-    print("La suma es: " + str(num1 + num2) + "\n")
+    print(f'El resultado es: {num1} + {num2} = {num1 + num2}\n')
 
 
 def subtraction(num1, num2):
-    print("La resta es: " + str(num1 - num2) + "\n")
+    print(f'El resultado es: {num1} - {num2} = {num1 - num2}\n')
 
 
 def multiplication(num1, num2):
-    print("La multiplicación es: " + str(num1 * num2) + "\n")
+    print(f'El resultado es: {num1} x {num2} = {num1 * num2}\n')
 
 
 def division(num1, num2):
     if num2 == 0:
         print("No es posible dividir entre '0'\n")
     else:
-        print("La división es: " + str(num1 / num2) + "\n")
-
-
-def power(num1, num2):
-    print("La potencia es: " + str(num1 ** num2) + "\n")
+        print(f'El resultado es: {num1} ÷ {num2} = {num1 / num2}\n')
 
 
 def run():
@@ -34,13 +30,12 @@ def run():
 2 - Resta           (número 1 - número 2)
 3 - Multiplicación  (número 1 x número 2)
 4 - División        (número 1 ÷ número 2)
-5 - Potencia        (número 1 ^ número 2)
 
 Elige una opcion: """
 
-    while opcion < 1 or opcion > 5:
+    while opcion < 1 or opcion > 4:
         opcion = int(input(menu))
-        if opcion < 1 or opcion > 5:
+        if opcion < 1 or opcion > 4:
             menu = "¡Elegiste una opción incorrecta! Selecciona de nuevo: "
 
     if opcion == 1:
@@ -49,10 +44,8 @@ Elige una opcion: """
         subtraction(a, b)
     elif opcion == 3:
         multiplication(a, b)
-    elif opcion == 4:
-        division(a, b)
     else:
-        power(a, b)
+        division(a, b)
 
 
 if __name__ == '__main__':
