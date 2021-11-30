@@ -30,12 +30,13 @@ def run():
 2 - Resta           (número 1 - número 2)
 3 - Multiplicación  (número 1 x número 2)
 4 - División        (número 1 ÷ número 2)
+5 - Potencia        (número 1 ^ número 2)
 
 Elige una opcion: """
 
-    while opcion < 1 or opcion > 4:
+    while opcion < 1 or opcion > 5:
         opcion = int(input(menu))
-        if opcion < 1 or opcion > 4:
+        if opcion < 1 or opcion > 5:
             menu = "¡Elegiste una opción incorrecta! Selecciona de nuevo: "
 
     if opcion == 1:
@@ -44,8 +45,10 @@ Elige una opcion: """
         subtraction(a, b)
     elif opcion == 3:
         multiplication(a, b)
+    elif opcion == 4:
+        division(a, b)
     else:
-        divison(a, b)
+        power(a, b)
 
 
 if __name__ == '__main__':
