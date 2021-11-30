@@ -12,7 +12,7 @@ def multiplication(num1, num2):
 
 def division(num1, num2):
     if num2 == 0:
-        print("No es posible dividir entre '0'\n")
+        print("No es posible dividir entre '0'. Vuelve a intentarlo\n")
     else:
         print(f'El resultado es: {num1} ÷ {num2} = {num1 / num2}\n')
 
